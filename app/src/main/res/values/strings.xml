@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BandioProject</string>
+    <string name="login">Login</string>
+    <string name="bandio">Bandio</string>
+    <string name="username">Username</string>
+    <string name="entrar">Entrar</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="password">password</string>
+    <string name="username1">username1</string>
+    <string name="favorito">Favorito</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="home">Home</string>
+    <string name="configura_es">Configurações</string>
+</resources>

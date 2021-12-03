@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bandiofundo"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_ios"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios"
+        android:gravity="end"
+        android:padding="20sp"
+        android:text="@string/login"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/camera" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:drawableLeft="@drawable/ic_baseline_account_circle"
+        android:drawablePadding=""
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Password"
+        android:inputType="text"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Birthday"
+        android:inputType="text"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+
+</LinearLayout>
