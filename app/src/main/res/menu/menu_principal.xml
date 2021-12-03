@@ -26,5 +26,10 @@
         android:icon="@drawable/ic_baseline_settings"
         android:title="@string/configura_es"
         app:showAsAction="withText" />
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/ic_baseline_exit_to_app"
+        android:title="@string/sair"
+        app:showAsAction="withText" />
 
 </menu>
