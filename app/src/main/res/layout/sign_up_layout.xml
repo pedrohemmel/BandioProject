@@ -31,7 +31,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#fff"
         android:drawableLeft="@drawable/ic_baseline_account_circle"
-        android:drawablePadding=""
         android:hint="Name"
         android:inputType="text"
         android:padding="20sp"
