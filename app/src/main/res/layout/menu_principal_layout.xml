@@ -12,17 +12,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:text="Compre algo" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Compre algo" />
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:text="cadastrar" />
-
-
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="cadastrar" />
+    </LinearLayout>
 
 
 </ScrollView>
