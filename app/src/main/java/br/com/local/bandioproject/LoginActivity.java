@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                 senha = edtPassword.getText().toString();
 
                 if(nome.equals("Pedrinho123") && senha.equals("1234")) {
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
 
                     Toast.makeText(getApplicationContext(), "Bem vindo ao sistema", Toast.LENGTH_SHORT).show();
                 } else {
